@@ -1,1 +1,21 @@
-zdsasdasd
+Functional Requirement
+User Requirement Specifications
+
+URS-01 The user shall register to be a member to access the web application.
+URS-02 The user shall view of the products in the web application.
+URS-03 The user shall select the products that are shown in the web application.
+
+URS-04 The member shall log in to access into the web application.
+URS-05 The member shall log out to exit the web application.
+URS-06 The member shall add the selected product to the shopping cart.
+URS-07 The member shall delete products from the shopping cart.
+URS-08 The member shall check out from the shopping process. 
+URS-09 The member shall select the way of transactional to pay for the order.
+
+URS-10 The administrator shall log in to access into the web application.
+URS-11 The administrator shall log out to exit the web application.
+URS-12 The administrator shall add products to the web application.
+URS-13 The administrator shall view history of the product that has been ordered from the customers.
+URS-14 The administrator shall delete products from the web application.
+URS-15 The administrator shall edit the information of products in the web application.
+
