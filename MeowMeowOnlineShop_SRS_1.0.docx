@@ -126,6 +126,8 @@ SRS-38 The system shall store transaction information in order database.
 
 
 
+
+
 URS-10 The administrator shall log in to access into the web application.
 
 SRS-09 The system shall display login interface to access into the web application by receiving email as username, and password.
@@ -144,29 +146,49 @@ SRS-13 The system shall back to log in page after the user log out from the web 
 
 URS-12 The administrator shall add products to the web application.
 
-SRS- The system shall provide button with the word ?add product? on product page. 
+SRS-39 The system shall provide button with the word ?add product? on product page. 
 
-*SRS- The system shall access to the product database.
+SRS-40 The system shall access to the product database.
 
-SRS- The system shall store product information to the product database.
+SRS-41 The system shall store product information to the product database.
 
 URS-13 The administrator shall view history of the product that has been ordered from customers.
         
 	SRS-27 The system shall access to order database.
 
-	SRS- The system shall display list of order history on history page.	
+	SRS-42 The system shall display list of order history on history page.	
 
 URS-14 The administrator shall delete products from the web application.
 
-SRS- The system shall provide delete button for deleting product from product page.
+SRS-43 The system shall provide delete button for deleting product on product page.
 
-*SRS- The system shall access to the product database.
+SRS-40 The system shall access to the product database.
 
-SRS- The system shall delete product from product list and product database.
+SRS-44 The system shall delete product from product list and product database.
 
-SRS- The system shall display list of product in product page.
+SRS-45 The system shall display list of product in product page.
 
 URS-15 The administrator shall edit the information of products in the web application.
+
+SRS-45 The system shall display list of product in product page.
+
+SRS-46 The system shall provide edit button to edit product on product page.
+
+SRS-47 The system shall display edit product page.
+
+SRS-48 The system shall provide editable fields for each product information.
+
+SRS-49 The system shall provide save button on the edit product page.
+
+SRS-40 The system shall access to the product database.
+
+SRS-41 The system shall store product information to the product database.
+
+
+
+
+
+
 
 
 
