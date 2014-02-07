@@ -20,38 +20,38 @@ URS-14 The administrator shall delete products from the web application.
 URS-15 The administrator shall edit the information of products in the web application.
 
 
-Software Requirement Specification
+SRS
 
 URS-01 The user shall register to be a member to access the web application.
 	
 SRS-01 The system shall display registration interface to register into the application by receiving registration information which are email as username, password, address, and image.
-
+        
 SRS-02 The system shall check validation of registration information for getting correctly registration information.
-
-SRS-03 The system shall access to the user’s database.
-
-SRS-04 The system shall store registration information into user’s database.
-
+        
+        SRS-03 The system shall access to the user database.
+        
+        SRS-04 The system shall store registration information into user database.
+        
 URS-02 The user shall view of the products in the web application.
 
-SRS-05 The system shall access to the products database.
-
+        SRS-05 The system shall access to the products database.
+        
 SRS-06 The system shall retrieve list of information which are product name, product category, product price, and product image.
-
+        
 SRS-07 The system shall display list of products. In each label shall display product name, product category, product price, and product image.
 
 URS-03 The user shall select the products that are shown in the web application.
 
 SRS-08 The system shall be able to view information of products by clicking any label on the list of product.
 
-
+       
 URS-04 The member shall log in to access into the web application.
 
 SRS-09 The system shall display login interface to access into the web application by receiving email as username, and password.
 
-SRS-03 The system shall access to the user’s database.
+SRS-03 The system shall access to the user database.
 
-SRS-10 The system shall verify username and password with user’s database to give permission user to access to the application.
+SRS-10 The system shall verify username and password with user database to give permission user to access to the application.
 
 SRS-11 The system shall display homepage interface when user access to the web application.
 
@@ -63,37 +63,76 @@ SRS-13 The system shall back to log in page after the user log out from the web 
 
 URS-06 The member shall add the selected product to the shopping cart.
 
-SRS-14 The system shall provide add button from the product page to shopping cart.
+SRS-14 The system shall provide button with the word ?add? on product page. 
 
 SRS-15 The system shall access to the shopping cart database.
 
-SRS-16 The system shall store product name to the database.
+SRS-16 The system shall store product name to the shopping cart database.
 
+SRS-17 The system shall display the added product detail on summary page.
 
+SRS-18 The system shall provide button with the word ?add more? on summary page.
 
-
+SRS-19 The system shall go back to product page.
 
 URS-07 The member shall delete products from the shopping cart.
 
-SRS-17 The system shall provide delete button for deleting product from shopping cart.
+SRS-20 The system shall provide delete button for deleting product from shopping cart.
 
 SRS-15 The system shall access to the shopping cart database.
 
-SRS-18 The system shall delete product from shopping cart and shopping cart database.
+SRS-21 The system shall delete product from shopping cart and shopping cart database.
 
-SRS-19 The system shall display list of product in shopping cart.
+SRS-22 The system shall display list of product in shopping cart.
 
 URS-08 The member shall check out from the shopping process. 
+
+SRS-23 The system shall provide a button with the word ?Check out? on summary page to let the user check out from the shopping process. 
+
+SRS-24 The system shall provide name field for shipping information.
+
+SRS-25 The system shall provide email field for shipping information.
+
+SRS-26 The system shall provide address field for shipping information.
+
+SRS-27 The system shall access to order database.
+
+SRS-28 The system shall store shipping information in order database.
+
+SRS-29 The system shall provide a button with the word ?Next? to let user finish the check out process.
+
+SRS-30 The system shall go to transaction page after check out process is done. 
+ 
 	
 URS-09 The member shall select the way of transactional to pay for the order.
+
+SRS-31 The system shall go to transaction page. 
+
+SRS-32 The system shall provide three transaction options, which are Transfer, Credit card and PayPal.
+
+SRS-33 The system shall provide four bank options, which are Siam Commercial Bank, Kasikorn Bank, Thanachart Bank, and Bank of Ayudhya, when the user chose Transfer as transaction method.
+
+SRS-34 The system shall provide two credit card types, which are Visa and Master Card when the user chose Credit card as transaction method. 
+
+SRS-35 The system shall provide card number field for credit card information.
+
+SRS-36 The system shall provide expired date field for credit card information.
+
+SRS-37 The system shall link to PayPal website when the user chose PayPal as transaction method.
+
+SRS-27 The system shall access to order database.
+
+SRS-38 The system shall store transaction information in order database.
+
+
 
 URS-10 The administrator shall log in to access into the web application.
 
 SRS-09 The system shall display login interface to access into the web application by receiving email as username, and password.
 
-SRS-03 The system shall access to the user’s database.
+SRS-03 The system shall access to the user database.
 
-SRS-10 The system shall verify username and password with user’s database to give permission user to access to the application.
+SRS-10 The system shall verify username and password with user database to give permission user to access to the application.
 
 SRS-11 The system shall display homepage interface when user access to the web application.
 
@@ -105,13 +144,18 @@ SRS-13 The system shall back to log in page after the user log out from the web 
 
 URS-12 The administrator shall add products to the web application.
 
-SRS- The system shall provide add product button from the product page to shopping cart.
+SRS- The system shall provide button with the word ?add product? on product page. 
 
 *SRS- The system shall access to the product database.
 
 SRS- The system shall store product information to the product database.
 
 URS-13 The administrator shall view history of the product that has been ordered from customers.
+        
+	SRS-27 The system shall access to order database.
+
+	SRS- The system shall display list of order history on history page.	
+
 URS-14 The administrator shall delete products from the web application.
 
 SRS- The system shall provide delete button for deleting product from product page.
@@ -127,4 +171,12 @@ URS-15 The administrator shall edit the information of products in the web appli
 
 
 
+
+
+
+
+
+
+
+       
 
